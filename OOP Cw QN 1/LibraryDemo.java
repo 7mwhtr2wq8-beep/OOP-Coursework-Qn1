@@ -8,17 +8,17 @@ public class LibraryDemo {
         Book b1 = new Book(
                 "ISBN001",
                 "Clean Code",
-                "Robert Martin");
+                "Robert M");
 
         Book b2 = new Book(
                 "ISBN002",
                 "Java Programming",
-                "James Gosling");
+                "James G");
 
         Book b3 = new Book(
                 "ISBN003",
                 "Data Structures",
-                "Mark Weiss");
+                "Mark W");
 
         library.addBook(b1);
         library.addBook(b2);
@@ -36,7 +36,6 @@ public class LibraryDemo {
         library.registerMember(m1);
         library.registerMember(m2);
 
-        // BEFORE
         System.out.println(" BEFORE OPERATIONS ");
         System.out.println(library);
         System.out.println(b1);
@@ -59,7 +58,6 @@ public class LibraryDemo {
 
         System.out.println();
 
-        // AFTER
         System.out.println(" AFTER OPERATIONS ");
         System.out.println(library);
         System.out.println(b1);
